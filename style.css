@@ -31,7 +31,8 @@
 }
 
 p{
-	font-size: 1em;
+	font-size: 0.875em;
+	text-align: center;
 }
 
 
@@ -59,8 +60,8 @@ p{
 }
 
 .XSScrMenuLogo{
-	width: 180px;
-	margin: auto;
+	background-size: auto;
+	width: 200px;
 	
 
 }
@@ -68,43 +69,73 @@ p{
 
 /*------only the body content (except header and footer)-------*/
 
+.container{
+	display: flex; /* utiliser flexbox dans le container */
+	flex-direction: column;
+	align-items: center;
+}
 
 .FirstPart{
 	margin-top: 100px;
 	
 }
 
-.Firstpart, p{
-	margin-right: 4%;
-	margin-left: 4%;
-	text-align: center;
-}
 
 span{
 	color: #f56b2a;
 }
 
 .FPButton{
-	display:flex;
-	flex-direction: column;
-
+	background-size: auto;
+	width: 100%
+	margin-left: 50%;
+	margin-right: 50%;
 }
 
 .FPButton1{
 	width: 350px;
-	margin: 5px;
-	margin-bottom: 10px;
-	
+
 }
 
 .FPButton2{
 	width: 350px;
+
+}
+.FranceMap{
+	width: 100%;
+	height: auto;
 }
 
 
 /*--------------------------only the footer--------------------*/
 
 
+.XSScrFooter img{
+	width: 100%;
+}
+
+.XSScrFooter div img{
+	max-width: 30px;
+	max-height: 30px;
+    margin: 15px 5px 5px 95px;
+}
+
+.XSScrFooter div{
+	background-color: #474747;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 80px;
+	display: inline-flex;
+}
+
+.XSScrFooter div p{
+	margin-top: 35px;
+	margin-left: 10px;
+	font-size: 0.8em
+
+}
 
 
 
