@@ -161,8 +161,39 @@ span{
 /*###############################################*/
 @media (min-width: 980px) {
 
+/*----------------------elements to hide-----------------------*/
+
+.XSScrMenu, .SmallScrList, .XSScrFooter, .XSScrAd{
+	display: none;
+}
+
+.WideScrMenu, .WideScrList, .WideScrFooter, .WideScrAd{
+	display: block;
 
 }
+
+
+
+/*----------------------only the header------------------------*/
+
+.Menu{
+	background-color: #f56b2a;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 0px;
+}
+
+.WideScrMenu{
+	list-style-type: none;
+	text-transform: uppercase;
+	display: inline-flex;
+	margin: 0 15px;
+
+}
+
+
 
 
 /*###############################################*/
