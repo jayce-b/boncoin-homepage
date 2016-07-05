@@ -73,6 +73,9 @@ p{
 	display: flex; /* utiliser flexbox dans le container */
 	flex-direction: column;
 	align-items: center;
+	max-width: 1066px;
+	max-width: 360px;
+	margin: 0 auto;
 }
 
 .FirstPart{
