@@ -136,9 +136,10 @@ span{
 .XSScrFooter div p{
 	margin-top: 35px;
 	margin-left: 10px;
-	font-size: 0.8em
+	font-size: 0.8em;
 
 }
+
 
 
 
@@ -178,6 +179,9 @@ span{
 
 
 /*----------------------only the header------------------------*/
+.Container{
+	display: flex;
+}
 
 .Menu{
 	background-color: #f56b2a;
@@ -192,9 +196,32 @@ span{
 	list-style-type: none;
 	text-transform: uppercase;
 	display: inline-flex;
-	margin: 0 15px;
+	justify-content: flex-end;
+	margin: 0;
+	padding : 25px 15px 5px 0;
+	background-color: #f56b2a;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
 
 }
+
+ul li{
+	padding: 0 8px 0 8px;
+	font-size: 1.025em;
+	
+
+}
+
+
+.LogoBonCoin{
+	width: 55%;
+	padding-bottom: 15px;
+}
+
 
 
 
